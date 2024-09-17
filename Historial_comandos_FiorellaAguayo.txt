@@ -1,0 +1,125 @@
+ls
+whoami
+pwm
+pwd
+echo "hola"
+echo $HOME
+ls
+cd repogit
+ls
+git clone https://github.com/FiorellaAguayo/repo_prueba_arq.git
+ls
+cd repo_prueba_arq/
+ls
+history
+history > historial.txt
+ls
+cd..
+cat 
+ls
+cd repogit/
+ls
+cd repo_prueba_arq/
+ls
+git statis
+git status
+git add .
+git status
+git commit -m "historial de comandos"
+git config --global user.email "fiorelamarina20@gmail.com"
+git commit -m "historial de comandos"
+git push
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+rm -r repo_prueba_arq/
+sudo rm -r repo_prueba_arq/
+ls -l
+ls
+pwd
+git clone git@github.com:FiorellaAguayo/repo_FiorellaAguayo_arq.git
+ls -l
+cd repo_FiorellaAguayo_arq/
+echo "hola"
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer commit"
+git push
+cat /etc/passwd
+head/etc/passwd
+head /etc/passwd
+head -n2/etc/passwd
+head -n2 /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo.txt
+ls -l
+cat archivo.txt
+sort archivo.txt
+man sort
+cat << EOF > archivo2.txt
+linea 1
+linea 2
+linea 3EOF
+EOF
+
+cat archivo2.txt
+bc <<< 5+2
+ls -l
+cat hola.txt 
+echo "saludos" >> hola.txt 
+cat hola.txt 
+echo "hola" > hola.txt 
+car hola.txt 
+cat hola.txt 
+exit
+pwd
+ls
+cd repogit/
+ls
+cd ..
+pwd
+ssh-keygen -t ed25516
+cd repogit/
+cd TP_AySO/
+man grep
+grep -v "nologin" /etc/passwd | head | sort -t ":" -k 7 > lista_ordenada
+ls
+cat lista_ordenada 
+cat /etc/passwd
+cat head -n10 /etc/passwd 
+cat head -n2 /etc/passwd
+head -n10 /etc/passwd
+cat lista_ordenada 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenados"
+echo "Comando que realiza un dump traffic: tcpdump" > comando_dump_net
+cat comando_dump_net 
+git status
+ls -l
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat README.md 
+cat << EOF >> README.md 
+Alumno: Fiorella Aguayo
+División: 311
+Turno: Noche
+EOF
+
+git status
+git add .
+DOCS: Agregando información inicial al README
+git commit -m "DOCS: Agregando información inicial al README"
+history -a
